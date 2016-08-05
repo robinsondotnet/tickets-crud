@@ -10,7 +10,7 @@
                 <tickets></tickets>
                 <template id="tickets-template">
                     <div class="panel-body">
-                        <a class="btn btn-primary" href="tickets/create">Create a Nerd</a>
+                        <a class="btn btn-primary" href="tickets/create">Create a Ticket</a>
                         <input id="search_text" name="query" type="text" value=""/>
                         <a class="btn btn-primary btn-xs" @click="searchTickets" >Search</a> 
                             <select id="priority_filter" @change="filterTickets">
