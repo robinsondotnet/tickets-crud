@@ -43,17 +43,32 @@ class TicketController extends Controller
         }
     }
 
+    /**
+     * Vista de Formulario Crear
+     *
+     * @return Response
+     */
     public function create()
     {
         return view('ticket.create');
     }
 
+    /**
+     * Vista de Formulario Editar
+     *
+     * @return Response
+     */
     public function edit($id)
     {
         $ticket = Ticket::find($id);
         return view('ticket.edit', compact('ticket'));
     }
 
+    /**
+     * Crear Nuevo Ticket
+     *
+     * @return Response
+     */
     public function store()
     {
         Ticket::create([
@@ -66,6 +81,11 @@ class TicketController extends Controller
         return Redirect::to('tickets');
     }
 
+    /**
+     * Actualizar Ticket
+     *
+     * @return Response
+     */
     public function update(Request $request, $id)
     {
         $ticket = Ticket::find($id);
@@ -77,6 +97,11 @@ class TicketController extends Controller
         return Redirect::to('tickets');
     }
 
+    /**
+     * Eliminar Ticket
+     *
+     * @return Response
+     */
     public function destroy($id)
     {
         Ticket::destroy($id);
