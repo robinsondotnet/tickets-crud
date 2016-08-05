@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/tickets-crud":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/tickets-crud","hostpath":"/home/kento/workspace/php/tickets-crud","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/kento/workspace/php/tickets-crud","disabled":false,"__vagrantfile":true}}}

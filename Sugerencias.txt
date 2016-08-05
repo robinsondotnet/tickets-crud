@@ -1,0 +1,10 @@
+Sugerencias:
+
+-Implementar Autentificación
+-Implementar Access Control List (Autorización)
+-Agregar Modelo Usuarios
+-Mejorar el diseño
+-Usar ajax para las demas acciones aparte de Listar para que haya mejor interacción
+-Refactorizar codigo
+-Mejorar guia/manual de aplicación
+-Remplazar jQuery por vue-router

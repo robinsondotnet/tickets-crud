@@ -15,5 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// CRUD routes for tickets
+// Rutas CRUD para el recurso 'tickets'
 Route::resource('tickets', 'TicketController');
+
+Route::get('/home', 'HomeController@index');
